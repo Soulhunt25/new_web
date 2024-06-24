@@ -1,0 +1,33 @@
+#parent{
+    border: 2px black solid;
+    height: 700px;
+    display: flex;
+    flex-direction: row-reverse;
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row; */
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+
+#one{
+    background-color: aqua;
+}
+#two{
+    background-color: rgb(255, 153, 0);
+}
+#three{
+    background-color: rgb(149, 0, 255);
+}
+#four{
+    background-color: rgb(255, 0, 200);
+}
+
+.class{
+    height: 150px;
+    width: 150px;
+    border: 2px black solid;
+    padding: 10px;
+    /* margin: auto; */
+    /* border-radius: 50%; */
+    text-align: center;
+}

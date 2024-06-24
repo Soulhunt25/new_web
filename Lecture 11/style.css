@@ -1,0 +1,67 @@
+/* div{
+    background-color: black;
+    height: 200px;
+    width: 200px;
+}
+
+@media (min-width: 500px) {
+    div{
+        background-color: brown;
+        border-radius: 50%;
+    }
+} */
+
+/*////////////////////*/
+
+/* div{
+    background-color: rgba(52, 86, 173, 0.802);
+    height: 200px;
+    width: 200px;
+    transition-duration: 1000ms;
+    transition-property: border-radius;
+}
+
+div:hover{
+    background-color: rgba(19, 208, 183, 0.537);
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+} */
+
+
+/*/////////////////////////////*/
+
+.parent{
+    border: 2px solid black;
+    height: 600px;
+}
+
+.child{
+    height: 150px;
+    width: 150px;
+    transition-duration: 4000ms;
+}
+
+#one{
+    background-color: blueviolet;
+    transition-timing-function: linear;
+}
+
+#two{
+    background-color: rgb(172, 190, 13);
+    transition-timing-function: ease-in;
+}
+
+#three{
+    background-color: rgb(150, 71, 10);
+    transition-timing-function: ease-out;
+}
+
+#four{
+    background-color: rgb(4, 105, 156);
+    transition-timing-function: ease-in-out;
+}
+
+.parent:hover .child{
+    margin-left: 1281px;
+}

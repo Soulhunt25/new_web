@@ -1,0 +1,11 @@
+div{
+    height: 600px;
+    width: 600px;
+    background-color: chocolate;
+}
+
+@media (max-width : 450px) {
+    div{
+        background-color: hotpink;
+    }
+}

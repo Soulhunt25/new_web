@@ -1,0 +1,29 @@
+.parent{
+    height: 200px;
+    width: 200px;
+    transition: 3s; 
+    background-color: purple;
+    position: relative;
+}
+
+.parent:hover{
+    border-radius: 50%;
+    background-color: aqua;
+    border: 3px black solid;   
+}
+
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: burlywood;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    transition: 3s;
+}
+
+.child:hover{
+    border-radius: 50%;
+    background-color: blueviolet;
+    border: 3px black solid;
+}
