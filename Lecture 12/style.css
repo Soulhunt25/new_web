@@ -1,0 +1,52 @@
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(180, 116, 12);
+    transition: 5s;
+}
+
+div:hover{
+    transform: translateX(200px);
+    transform: translatey(200px);
+    transform: translate(200px,200px);
+    transform: rotateY(180deg);
+    transform: scale(2);
+} */
+
+/*//////////////////////*/
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+#parent{
+    width: 350px;
+    height: 350px;
+    margin: 30px auto;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 2s;
+}
+
+#parent:hover{
+    transform: rotateY(180deg);
+}
+
+body{
+    perspective: 900px;
+}
+
+.classA{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    backface-visibility: hidden;
+}
+.classB{
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    transform: rotateY(180deg);
+}
