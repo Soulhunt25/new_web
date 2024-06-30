@@ -1,0 +1,26 @@
+
+
+.child{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    background: linear-gradient(blueviolet,red,greenyellow);
+    /* background-color: color-mix(in xyz-d50, rgb(220, 6, 145) 50%, rgb(19, 203, 227) 50%); */
+    border-radius: 50%;
+
+
+    animation-name: new;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+@keyframes new{
+    form{
+        transform: translateY(0px);        
+    }
+    to{
+        transform: translateY(85vh) rotate(360deg);               
+    }
+}
