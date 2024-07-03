@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #363535;
+    height: 150px;
+    text-align: center;
+    padding: 1em;
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    height: 50px;
+    background-color: #292a2a;
+    text-align: center;
+    padding-top: 1em;
+    font-size: x-large;
+    position: sticky;
+    top: 0px;
+}
+
+.navigation {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #47ddff;
+}
+
+.image1 img {
+    width: 100%;
+    height: auto;
+}
+
+#Cards {
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    flex-wrap: wrap;
+    margin-top: 1em;
+}
+
+.card-card {
+    border: 1px solid black;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card-card:hover {
+    transform: scale(1.05);
+}
+
+.card-card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-card h5 {
+    font-size: 1.25em;
+    margin: 1em 0 0.5em;
+}
+
+.card-card p {
+    padding: 0 1em 1em;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.card-card button {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 1em 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.card-card button:hover {
+    background-color: #8b2dd8;
+}
